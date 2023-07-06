@@ -1,13 +1,9 @@
-import {
-  BadgeCheckIcon,
-  CollectionIcon,
-  HomeIcon,
-  LightningBoltIcon,
-  SearchIcon,
-  UserIcon,
-} from "@heroicons/react/outline";
+
 import Image from "next/image"
 import HeaderItem from "./HeaderItem";
+
+import { HomeIcon, BoltIcon, CheckBadgeIcon, CircleStackIcon, MagnifyingGlassIcon, UserCircleIcon} from "@heroicons/react/24/outline"
+
 
 export default function Header() {
   return (
@@ -15,11 +11,11 @@ export default function Header() {
       <header className="flex flex-col sm:flex-row m-5 justify-between items-center h-auto">
         <div className="flex flex-grow justify-evenly max-w-2xl">
           <HeaderItem title="HOME" Icon={HomeIcon} />
-          <HeaderItem title="HOME" Icon={LightningBoltIcon} />
-          <HeaderItem title="HOME" Icon={BadgeCheckIcon} />
-          <HeaderItem title="HOME" Icon={CollectionIcon} />
-          <HeaderItem title="HOME" Icon={SearchIcon} />
-          <HeaderItem title="HOME" Icon={UserIcon} />
+          <HeaderItem title="HOME" Icon={BoltIcon} />
+          <HeaderItem title="HOME" Icon={CheckBadgeIcon} />
+          <HeaderItem title="HOME" Icon={CircleStackIcon} />
+          <HeaderItem title="HOME" Icon={MagnifyingGlassIcon} />
+          <HeaderItem title="HOME" Icon={UserCircleIcon} />
         </div>
         <Image
           className="object-contain"
