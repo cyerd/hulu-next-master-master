@@ -1,8 +1,7 @@
 module.exports = {
   mode: "jit",
-  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./Components/**/*.{js,ts,jsx,tsx}", 
+  content: ["./pages/**/*.{js,ts,jsx,tsx}", "./Components/**/*.{js,ts,jsx,tsx}", 
           "./node_modules/tw-elements/dist/js/**/*.{js,ts,jsx,tsx}",],
-  darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       screens: {

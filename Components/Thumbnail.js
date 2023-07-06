@@ -17,14 +17,14 @@ import FlipMove from "react-flip-move"
         >
           
           <Image
-            layout="responsive"
+            // layout="responsive"
             src={`${base_url}${result.backdrop_path || result.poster_path}`}
             width={1920}
             height={1080}
           />
 
           <div className="p-2 ">
-            <p className=" truncate max-w-md">{result.overview}</p>
+            <p className="  max-w-md">{result.overview}</p>
 
             <h2 className="mt-1 text-2xl text-white transition-all duration-100 ease-in-out group-hover:font-bold">
               {result.title || result.original_name}
