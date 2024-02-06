@@ -10,7 +10,7 @@ import FlipMove from "react-flip-move"
     return (
       <FlipMove className="p-2  transition duration-200 ease-in transform sm:hover:scale-105  group cursor-pointer hover:z-50">
         <a
-          href={`https://hdtoday.cc/search/${
+          href={`https://www.youtube.com/results?search_query=${
             result.title || result.original_name
           }`}
           target="_blank"
