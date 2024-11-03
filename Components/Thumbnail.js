@@ -12,7 +12,7 @@ import FlipMove from "react-flip-move"
         <a
           href={`https://www.youtube.com/results?search_query=${
             result.title || result.original_name
-          }`}
+          } trailer`}
           target="_blank"
         >
           
