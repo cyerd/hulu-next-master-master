@@ -3,6 +3,7 @@ import Header from "../Components/Header";
 import Nav from "../Components/Nav";
 import Results from "../Components/Results";
 import requests from "../Util/requests";
+import Navbar from "../Components/Navbar";
 
 
 export default function Home({results}) {
@@ -13,7 +14,7 @@ export default function Home({results}) {
         <link rel="icon" href="/favicon.ico" style={{ objectFit: "cover" }} />
       </Head>
 
-        <Header />
+        <Navbar  className="w-full"/>
         <Nav />
         <Results results={results} />
 
